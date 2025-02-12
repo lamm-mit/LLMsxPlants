@@ -36,6 +36,8 @@ Effective research ideation requires both diversity and refinement, following a 
 
 Developing effective laboratory procedures requires both technical accuracy and creative reasoning. In this work, we demonstrate how our system refines procedure generation through a multi-step approach, first establishing a scientific foundation via **Q&A generation** ([Procedure Design - 1 Q-As.ipynb](notebooks/Procedure%20Design%20-%201%20Q-As.ipynb)), then enhancing procedural depth through **multi-agent collaboration** ([Procedure Design - 2 Multi-Agent.ipynb](notebooks/Procedure%20Design%20-%202%20Multi-Agent.ipynb)), resulting in more precise and experimentally grounded protocols.
 
+![Alt Text](images/proceduredesign.png)
+
 ## Getting Started
 
 Clone the repository and install required packages:
