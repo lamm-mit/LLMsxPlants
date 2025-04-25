@@ -1,5 +1,5 @@
 # LLMs x Plant Mechanics 🌱
-*Enhancing Scientific Innovation in LLMs: A Framework Applied to Plant Mechanics Research* <br>
+*Title* <br>
 *R.K. Luu, M. Dao, S. Suresh, M.J. Buehler. (2025)*<br>
 *Massachusetts Institute of Technology*
 
@@ -22,19 +22,19 @@ This repository provides accessible, user-friendly notebooks that outline struct
 
 *Extraction of Mechanistic Insights*<br>
 
-Understanding the underlying mechanisms of mechanical behavior is crucial for plant mechanics research. In this work, we demonstrate how our system can predict experimental outcomes, link structure-property relationships to inspire bioinspired designs, and extract key information to generate visualized graphs of material relationships ([Extraction of Mechanistics Insights.ipynb](notebooks/Extraction%20of%20Mechanistic%20Insights.ipynb)).
+Understanding the underlying mechanisms of mechanical behavior is crucial for plant mechanics research. In this work, we demonstrate how our system can predict experimental outcomes, link structure-property relationships to inspire bioinspired designs, and extract key information to generate visualized graphs of material relationships ([Extraction of Mechanistics Insights.ipynb](Extraction%20of%20Mechanistic%20Insights.ipynb)).
 
 ![Alt Text](images/graphgeneration.png)
 
 *Idea Mining*<br>
 
-Effective research ideation requires both diversity and refinement, following a divergent-convergent framework. In this work, we demonstrate how our system generates and filters unique, novel ideas through **divergent generation**, ranks them based on scientific value in a **convergent evaluation** phase, ([Idea Mining - 1 DivergentConvergent.ipynb](notebooks/Idea%20Mining%20-%201%20DivergentConvergent.ipynb)) and enables further refinement through **multi-agent collaboration** ([Idea Mining - 2 Multi-Agent.ipynb](notebooks/Idea%20Mining%20-%202%20Multi-Agent.ipynb)), ensuring more diverse and technically grounded research directions.
+Effective research ideation requires both diversity and refinement, following a divergent-convergent framework. In this work, we demonstrate how our system generates and filters unique, novel ideas through **divergent generation**, ranks them based on scientific value in a **convergent evaluation** phase, ([Idea Mining - 1 DivergentConvergent.ipynb](Idea%20Mining%20-%201%20DivergentConvergent.ipynb)) and enables further refinement through **multi-agent collaboration** ([Idea Mining - 2 Multi-Agent.ipynb](Idea%20Mining%20-%202%20Multi-Agent.ipynb)), ensuring more diverse and technically grounded research directions.
 
 ![Alt Text](images/ideamining.png)
 
 *Procedure Design*<br>
 
-Developing effective laboratory procedures requires both technical accuracy and creative reasoning. In this work, we demonstrate how our system refines procedure generation through a multi-step approach, first establishing a scientific foundation via **Q&A generation** ([Procedure Design - 1 Q-As.ipynb](notebooks/Procedure%20Design%20-%201%20Q-As.ipynb)), then enhancing procedural depth through **multi-agent collaboration** ([Procedure Design - 2 Multi-Agent.ipynb](notebooks/Procedure%20Design%20-%202%20Multi-Agent.ipynb)), resulting in more precise and experimentally grounded protocols.
+Developing effective laboratory procedures requires both technical accuracy and creative reasoning. In this work, we demonstrate how our system refines procedure generation through a multi-step approach, first establishing a scientific foundation via **Q&A generation** ([Procedure Design - 1 Q-As.ipynb](Procedure%20Design%20-%201%20Q-As.ipynb)), then enhancing procedural depth through **multi-agent collaboration** ([Procedure Design - 2 Multi-Agent.ipynb](nProcedure%20Design%20-%202%20Multi-Agent.ipynb)), resulting in more precise and experimentally grounded protocols.
 
 ![Alt Text](images/proceduredesign.png)
 
@@ -53,11 +53,11 @@ The finetuned LLM used is [BioinspiredLLM](https://doi.org/10.1002/advs.20230672
 
 Load RAG<br>
 
-RAG is supported via LlamaIndex, using `SimpleDirectoryReader` to load PDFs of research articles. Ensure the specified folder contains the relevant documents and matches the correct directory path.
+RAG is supported via LlamaIndex, using `SimpleDirectoryReader` to load PDFs of research articles. Ensure the specified folder contains the relevant documents and matches the correct directory path. In our case, our RAG folder on this GitHub is empty, be sure to locate the correct papers and download their PDFs via your library credentials. 
 
 ```bash
 documents = SimpleDirectoryReader(
-    "./PlantPapers/"   # Directory containing research PDFs
+    "./RAG/"   # Directory containing research PDFs
 ).load_data()
 ```
 Load and Inference Functions<br>
