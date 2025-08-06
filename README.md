@@ -6,11 +6,11 @@ GENERATIVE AI EXTRACTS STRUCTURE–FUNCTION RELATIONSHIPS FROM PLANTS FOR NEW MA
 ## Overview 
 Large Language Models (LLMs) have reshaped scientific research by providing new approaches to knowledge retrieval and content generation. However, their specific application in domain-specific scientific research, particularly in biological materials science, remains underexplored. This project integrates robust LLM techniques to extract key mechanistic insights from plant materials, specifically humidity-responsive pollen-based materials and Rhapis excelsa (broadleaf lady palm) leaf mechanics. By leveraging our fine-tuned model BioinspiredLLM, Retrieval-Augmented Generation (RAG), and new sampling techniques, we generate structured hypotheses, propose bioinspired engineering structures based on plant mechanics, and validate such designs in the laboratory.
 
-![Alt Text](images/overview.png)
+![Alt Text](images/overview.PNG)
 
 With a focus on non-linear inference strategies, our approach moves beyond single-shot LLM inference, instead integrating structured multi-stage reasoning, agentic workflows, and adaptive sampling to improve creativity, interpretability, and scalability in scientific discovery.
 
-![Alt Text](images/linearvsnonlinear.png)
+![Alt Text](images/linearvsnonlinear.PNG)
 
 This repository provides accessible, user-friendly notebooks that outline structured inference protocols, allowing users to:<br>
 
@@ -24,19 +24,19 @@ This repository provides accessible, user-friendly notebooks that outline struct
 
 Understanding the underlying mechanisms of mechanical behavior is crucial for plant mechanics research. In this work, we demonstrate how our system can predict experimental outcomes, link structure-property relationships to inspire bioinspired designs, and extract key information to generate visualized graphs of material relationships ([Extraction of Mechanistics Insights.ipynb](Extraction%20of%20Mechanistic%20Insights.ipynb)).
 
-![Alt Text](images/graphgeneration.png)
+![Alt Text](images/graphgeneration.PNG)
 
 *Idea Mining*<br>
 
 Effective research ideation requires both diversity and refinement, following a divergent-convergent framework. In this work, we demonstrate how our system generates and filters unique, novel ideas through **divergent generation**, ranks them based on scientific value in a **convergent evaluation** phase, ([Idea Mining - 1 DivergentConvergent.ipynb](Idea%20Mining%20-%201%20DivergentConvergent.ipynb)) and enables further refinement through **multi-agent collaboration** ([Idea Mining - 2 Multi-Agent.ipynb](Idea%20Mining%20-%202%20Multi-Agent.ipynb)), ensuring more diverse and technically grounded research directions.
 
-![Alt Text](images/ideamining.png)
+![Alt Text](images/ideamining.PNG)
 
 *Procedure Design*<br>
 
 Developing effective laboratory procedures requires both technical accuracy and creative reasoning. In this work, we demonstrate how our system refines procedure generation through a multi-step approach, first establishing a scientific foundation via **Q&A generation** ([Procedure Design - 1 Q-As.ipynb](Procedure%20Design%20-%201%20Q-As.ipynb)), then enhancing procedural depth through **multi-agent collaboration** ([Procedure Design - 2 Multi-Agent.ipynb](Procedure%20Design%20-%202%20Multi-Agent.ipynb)), resulting in more precise and experimentally grounded protocols.
 
-![Alt Text](images/proceduredesign.png)
+![Alt Text](images/proceduredesign.PNG)
 
 ## Getting Started
 
