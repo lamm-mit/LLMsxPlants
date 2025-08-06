@@ -1,10 +1,10 @@
 # LLMs x Plant Mechanics 🌱
-*Title* <br>
-*R.K. Luu, M. Dao, S. Suresh, M.J. Buehler. (2025)*<br>
+GENERATIVE AI EXTRACTS STRUCTURE–FUNCTION RELATIONSHIPS FROM PLANTS FOR NEW MATERIALS <br>
+*R.K. Luu, J. Deng, M.S. Ibrahim, N.J. Cho, M. Dao, S. Suresh, M.J. Buehler. (2025)*<br>
 *Massachusetts Institute of Technology*
 
 ## Overview 
-Large Language Models (LLMs) have reshaped scientific research by providing new approaches to knowledge retrieval and content generation. However, their specific application in domain-specific scientific research, particularly in bioinspired materials science, remains underexplored. This project integrates robust LLM techniques to extract key mechanistic insights from plant materials, specifically humidity-responsive pollen-based materials and Rhapis excelsa (broadleaf lady palm) leaf mechanics. By leveraging our fine-tuned model BioinspiredLLM, Retrieval-Augmented Generation (RAG), and new sampling techniques, we generate structured hypotheses and propose bioinspired engineering structures based on plant mechanics.
+Large Language Models (LLMs) have reshaped scientific research by providing new approaches to knowledge retrieval and content generation. However, their specific application in domain-specific scientific research, particularly in biological materials science, remains underexplored. This project integrates robust LLM techniques to extract key mechanistic insights from plant materials, specifically humidity-responsive pollen-based materials and Rhapis excelsa (broadleaf lady palm) leaf mechanics. By leveraging our fine-tuned model BioinspiredLLM, Retrieval-Augmented Generation (RAG), and new sampling techniques, we generate structured hypotheses, propose bioinspired engineering structures based on plant mechanics, and validate such designs in the laboratory.
 
 ![Alt Text](images/overview.png)
 
@@ -68,10 +68,21 @@ All functions are defined within the notebooks for easy interpretability and can
 Please cite this work as: 
 
 ```bibtex
-@article{XXXXXXXXX,
-      title={XXXX},
-      author={XXXX},
-      year={2025},
-      journal={XXX},
-      doi={DOI},
+@article{luu2025generative,
+  title = {Generative AI Extracts Structure–Function Relationships from Plants for New Materials},
+  author = {Luu, Rachel K. and Deng, Jingyu and Ibrahim, Mohammed Shahrudin and Cho, Nam-Joon and Dao, Ming and Suresh, Subra and Buehler, Markus J.},
+  institution = {Massachusetts Institute of Technology and Nanyang Technological University},
+  year = {2025},
+  note = {Manuscript},
+  url = {[https://github.com/lamm-mit/LLMsxPlants]},
+  orcid = {
+    {Luu, Rachel K.}, {0000-0002-7821-934X},
+    {Deng, Jingyu}, {0000-0003-2765-1906},
+    {Ibrahim, Mohammed Shahrudin}, {0000-0002-3183-8581},
+    {Cho, Nam-Joon}, {0000-0002-8692-8955},
+    {Dao, Ming}, {0000-0001-5372-385X},
+    {Suresh, Subra}, {0000-0002-6223-6831},
+    {Buehler, Markus J.}, {0000-0002-7821-934X}
+  }
 }
+
