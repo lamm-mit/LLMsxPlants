@@ -1,7 +1,7 @@
 # LLMs x Plant Mechanics 🌱
 GENERATIVE AI EXTRACTS STRUCTURE–FUNCTION RELATIONSHIPS FROM PLANTS FOR NEW MATERIALS <br>
 *R.K. Luu, J. Deng, M.S. Ibrahim, N.J. Cho, M. Dao, S. Suresh, M.J. Buehler. (2025)*<br>
-*Massachusetts Institute of Technology*
+*Massachusetts Institute of Technology and Nanyang Technological University*
 
 ## Overview 
 Large Language Models (LLMs) have reshaped scientific research by providing new approaches to knowledge retrieval and content generation. However, their specific application in domain-specific scientific research, particularly in biological materials science, remains underexplored. This project integrates robust LLM techniques to extract key mechanistic insights from plant materials, specifically humidity-responsive pollen-based materials and Rhapis excelsa (broadleaf lady palm) leaf mechanics. By leveraging our fine-tuned model BioinspiredLLM, Retrieval-Augmented Generation (RAG), and new sampling techniques, we generate structured hypotheses, propose bioinspired engineering structures based on plant mechanics, and validate such designs in the laboratory.
