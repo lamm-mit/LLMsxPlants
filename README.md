@@ -2,8 +2,8 @@
 
 Generative Artificial Intelligence Extracts Structure-Function Relationships from Plants for New Materials <br>
 
-*R.K. Luu, J. Deng, M.S. Ibrahim, N.J. Cho, M. Dao, S. Suresh, M.J. Buehler. (2025)*<br>
-*Massachusetts Institute of Technology and Nanyang Technological University*
+Authors: R.K. Luu, J. Deng, M.S. Ibrahim, N.J. Cho, M. Dao, S. Suresh, and M.J. Buehler (2025)<br>
+
 Corresponding author: mbuehler@mit.edu 
 
 ## Overview 
